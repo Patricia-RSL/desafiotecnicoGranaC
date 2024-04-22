@@ -51,11 +51,11 @@ function test(expr, expected) {
     console.log(`Test case ${expr}: ${result}`)
 }
 
-test('1+2', 8)
+test('1+2', 3)
 test('0+8', 8)
-test('10+350', 8)
-test('5+40+100', 8)
+test('10+350', 360)
+test('5+40+100', 145)
 test('10-2', 8)
 test('-2+10', 8)
 test('2*4', 8)
-test('12/3', 8)
+test('12/3', 4)
